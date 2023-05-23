@@ -8,8 +8,6 @@ import java.util.List;
 @RequestMapping("api/autos")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class AutoController {
-
-
     private  AutoService autoService;
 
     public AutoController(AutoService autoService) {

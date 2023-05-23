@@ -28,8 +28,8 @@ public class AutoController {
     }
 
     @PostMapping("/filtrar/{opcionFiltro}/{precio}")
-    public List<Auto> filtrarAutos(@PathVariable String opcionFiltro, @PathVariable int precio) {
-        return autoService.filtrarPorPrecio(precio, opcionFiltro);
+    public List<Auto> asdasdasd(@PathVariable String opcionFiltro, @PathVariable int precio) {
+        return autoService.asdascascascasc(precio, opcionFiltro);
     }
 
     @PostMapping("/eliminar")
